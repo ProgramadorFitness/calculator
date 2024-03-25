@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    min-height: 100vh;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    background-image: linear-gradient(to left, magenta, tomato)
+}
+
+#calculator button{
+	width: 100%;
+	height: 100%;
+	font-size: 1em;
+	padding: 10px
+}
+
+input{
+	background: black;
+	font-size: 1em;
+    align:center;
+    color:white;
+}
+
+
+#calculator table{
+	height: 300px;
+    width: 100%;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td,input {
+    padding: 0px;
+    text-align: center;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 0px;
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px;
+}
+
+.radius-button {
+    border-bottom-left-radius: 10px; 
+}
+
+.radius-button-2 {
+    border-bottom-right-radius: 10px; 
+    background: orange;
+}
+
+.numbers{
+    background:white;
+}
+
+.operatore{
+    background:gray;
+}
+
+
+

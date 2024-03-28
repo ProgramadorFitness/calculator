@@ -62,5 +62,9 @@ input[type="text"] {
     background:gray;
 }
 
+.title{
+    font-size: 50px;
+    margin-top: 5;
+  }
 
 
